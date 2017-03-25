@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html ng-app="barap">
+  <head>
+    <meta charset="utf-8">
+    <title>The Barap</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.3/angular.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/angular-ui-router/0.4.2/angular-ui-router.js"></script>
+    <link rel="stylesheet" href="./CSS/styles.css">
+  </head>
+  <body>
+    <div class="main-header">
+      <img class="main-nav-logo" src="./Assets/BARAP_Logo_Final_Color-01.jpg" width="250px">
+          <div class="main-nav-links-box">
+            <a ui-sref="friendsView">Home</a>
+        		<a ui-sref="findFriends">Contact</a>
+        		<a ui-sref="updateProfile">Shop</a>
+            <a ui-sref="updateProfile">Cart</a>
+          </div>
+    </div>
+
+    <ui-view></ui-view>
+
+
+    <nav class="bottom-nav">
+  		<a ui-sref="friendsView">Home</a>
+  		<a ui-sref="findFriends">Contact</a>
+  		<a ui-sref="updateProfile">Shop</a>
+      <a ui-sref="updateProfile">Cart</a>
+	 </nav>
+
+    <script src="./JS/app.js"></script>
+    <script src="./Views/Landing/landingController.js"></script>
+  </body>
+</html>

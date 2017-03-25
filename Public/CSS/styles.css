@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css?family=Jim+Nightshade');
+
+body {
+  box-sizing: border-box;
+}
+
+.main-header {
+  height: 100px;
+  border-bottom: 2px solid black;
+  display: flex;
+  vertical-align: middle;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.main-nav-links-box {
+  width: 40%;
+  margin-top: 50px;
+  padding-right: 50px;
+  font-size: 25px;
+  font-family: 'Jim Nightshade', cursive;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  vertical-align: middle;
+}
+
+.bottom-nav {
+  border-top: 1px solid gray;
+  font-size: 40px;
+  color: #D7D7D7;
+  font-family: 'Jim Nightshade', cursive;
+  padding: 20px;
+  margin-top: 20px;
+  display: flex;
+  vertical-align: middle;
+  flex-direction: row;
+  justify-content: space-between;
+}
