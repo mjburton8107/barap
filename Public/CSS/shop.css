@@ -1,0 +1,17 @@
+body {
+  box-sizing: border-box;
+}
+
+.shop-overall-container {
+  display: flex;
+}
+
+.shop-image-box {
+  width: 50%;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.shop-container-right {
+  width: 50%;
+}
