@@ -1,5 +1,15 @@
 angular.module('barap').controller('shopController', function($scope){
 
-  $scope.test = "shop angular is working"
+  // $scope.test = "shop angular is working"
+
+  (function () {
+    console.log(document.getElementById('mygallery'))
+    'use strict';
+    Gallery.init(document.getElementById('mygallery'));
+  }());
+
+  // $scope.addToCart(item){
+  //
+  // };
 
 })

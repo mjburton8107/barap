@@ -1,6 +1,5 @@
-;(function() {
-  'use strict';
   var init = function (elem) {
+    console.log("this is elem", elem)
     var activeImageIndex = 0;
     var thumbs = elem.querySelector('.thumbs').querySelectorAll('div');
     var images = elem.querySelector('.images').querySelectorAll('div');
@@ -60,4 +59,3 @@
   window.Gallery = {
     init: init
   };
-}());

@@ -1,9 +1,15 @@
 <link rel="stylesheet" href="../../CSS/shop.css">
 
-<h1>this is the shop page</h1>
+<div class="add-to-cart-button-container">
+  <h3 class="shop-slogan">We have one product. Simple. Sturdy. Made in America    <img src="../../Assets/murica2.png" alt=""></h3>
+  <button class="add-to-cart-button" ng-click="addToCart(item)">Add to Cart</button>
+</div>
 
-<div class="shop-overall-container">
 
+<link rel="stylesheet" href="./CSS/gallery.min.css">
+
+
+<div class="gallery-container">
   <div id="mygallery" class="gallery">
     <div class="images">
       <div class="active" style="background-image: url(../../Assets/DSC00372.jpg)"></div>
@@ -22,10 +28,6 @@
       <div style="background-image: url(../../Assets/DSC00392.jpg)"></div>
     </div>
   </div>
-
-
-
-
 </div>
 
 <!-- figure out how to get small thumbnails that you can scroll through like Amazon -->

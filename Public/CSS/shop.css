@@ -1,17 +1,40 @@
+@import url('https://fonts.googleapis.com/css?family=Jim+Nightshade');
+
 body {
   box-sizing: border-box;
 }
 
-.shop-overall-container {
-  display: flex;
+.shop-slogan {
+  font-family: 'Jim Nightshade', cursive;
+  font-size: 40px;
 }
 
-.shop-image-box {
-  width: 50%;
-  display: flex;
-  flex-wrap: wrap;
+.gallery-container {
+  width: 65%;
+  vertical-align: middle;
+  margin-left: 250px;
 }
 
-.shop-container-right {
-  width: 50%;
+.add-to-cart-button-container {
+  height: 100px;
+  width: 70%;
+  margin-left: 175px;
+  display: flex;
+  align-items: center;
+  vertical-align: middle;
+  justify-content: space-between;
+}
+
+.add-to-cart-button {
+  height: 50px;
+  width: 100px;
+}
+
+@media screen and (max-width: 1185px) {
+  .shop-slogan {
+    display: none;
+  }
+  .gallery-container {
+    margin-left: 0px;
+  }
 }
