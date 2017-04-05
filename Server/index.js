@@ -9,3 +9,5 @@ app.use(bodyParser.json());
 app.listen(3000, function(){
   console.log('now listening on port 3000')
 })
+
+app.get()

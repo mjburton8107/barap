@@ -1,4 +1,4 @@
-angular.module('barap').controller('shopController', function($scope){
+angular.module('barap').controller('shopController', function($scope, productService){
 
   // $scope.test = "shop angular is working"
 
