@@ -8,8 +8,8 @@ angular.module('barap').controller('shopController', function($scope, productSer
     Gallery.init(document.getElementById('mygallery'));
   }());
 
-  // $scope.addToCart(item){
-  //
-  // };
+  $scope.addToCart = function(){
+    return productService.addToCart();
+  };
 
 })

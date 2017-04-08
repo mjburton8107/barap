@@ -18,7 +18,7 @@ angular.module('barap', ['ui.router'])
     })
     .state('cart', {
       url: '/cart',
-      templateUrl: '../Views/Cart/cart.html',
+      templateUrl: '../Views/Shop/cart.html',
       controller: 'cartController'
     })
 
